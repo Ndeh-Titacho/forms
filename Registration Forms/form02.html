@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music School Registration Form</title>
+    <!-- link to stylesheet -->
+    <link rel="stylesheet" href="styles02.css" />
+    <!-- link to font awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="heading">
+        <h1>Music School Registration</h1>
+        <h3>Register to our music school from below</h3>
+      </div>
+      <br />
+      <br />
+      <br />
+      <form>
+        <div class="classes-box">
+          <div class="left-box">
+            <label for="name"
+              >Name
+              <sup
+                ><i
+                  class="fa-solid fa-asterisk fa-Default-Size"
+                  style="color: #f20202"
+                ></i
+              ></sup>
+            </label>
+            <br /><br />
+            <label for="DOB"
+              >Birth Date
+              <sup
+                ><i
+                  class="fa-solid fa-asterisk fa-Default-Size"
+                  style="color: #f20202"
+                ></i></sup
+            ></label>
+            <br />
+            <br />
+            <label for="title"
+              >Choice of <br />Instrument
+              <sup
+                ><i
+                  class="fa-solid fa-asterisk fa-Default-Size"
+                  style="color: #f20202"
+                ></i
+              ></sup>
+            </label>
+            <br />
+            <br />
+            <label for="days"
+              >Pick Days for <br />
+              Classes
+              <sup
+                ><i class="fa-solid fa-asterisk" style="color: #f20202"></i
+              ></sup>
+            </label>
+          </div>
+
+          <!-- right side -->
+
+          <div class="right-box">
+            <input type="text" name="name" id="space" />
+
+            <input type="text" name="name" id="space" />
+            <br />
+            <br />
+
+            <select name="month" id="space">
+              <option value=""></option>
+              <option value="month">Months</option>
+              <option value="January">January</option>
+              <option value="febuary">Febuary</option>
+              <option value="march">March</option>
+              <option value="april">April</option>
+              <option value="may">May</option>
+              <br />
+              <h3>Months</h3>
+            </select>
+            <select name="days" id="space">
+              <option value="days"></option>
+              <option value="sunday">01</option>
+              <option value="monday">02</option>
+              <option value="tuesday">03</option>
+              <option value="wednesday">04</option>
+              <option value="thursday">05</option>
+              <option value="friday">06</option>
+              <option value="saturday">07</option>
+            </select>
+            <select name="year" id="space">
+              <option value="year"></option>
+              <option value="">2000</option>
+              <option value="">2001</option>
+              <option value="">2002</option>
+              <option value="">2003</option>
+              <option value="">2004</option>
+              <option value="">2005</option>
+            </select>
+            <br />
+            <br />
+            <select name="Instruments" id="space">
+              <option value="Instrument"></option>
+              <option value="piano">Piano</option>
+              <option value="violin">Violin</option>
+              <option value="guiter">Guiter</option>
+              <option value="drum">Drum</option>
+              <option value="xylophone">Xylophone</option>
+              <option value="band">Band</option>
+            </select>
+            <br />
+            <br />
+            <br />
+            <input type="checkbox" name="" id="space" />Monday
+            <br />
+            <input type="checkbox" name="" id="space" />Tuesday
+            <br />
+            <input type="checkbox" name="" id="space" />Wednesday
+            <br />
+            <input type="checkbox" name="" id="space" />Thursday
+            <br />
+            <input type="checkbox" name="" id="space" />Friday
+            <br />
+            <input type="checkbox" name="" id="space" />Saturday
+            <br />
+            <input type="checkbox" name="" id="space" />Sunday
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <!-- DATE AND TIME SECTION -->
+        <label for="Start Date & Time"
+          >Start Date & Time <br /><i
+            class="fa-regular fa-asterisk fa-Default-Size"
+            style="color: #f20202"
+          ></i
+        ></label>
+
+        <br />
+        <select name="Month" id="date">
+          <option value="">05</option>
+          <option value="">01</option>
+          <option value="">02</option>
+          <option value="">03</option>
+          <option value="">04</option>
+          <option value="">06</option>
+          <option value="">07</option>
+          <option value="">08</option>
+          <option value="">09</option>
+          <option value="">10</option>
+          <option value="">11</option>
+          <option value="">12</option>
+        </select>
+        <select name="day" id="date">
+          <option value="">17</option>
+          <option value="">01</option>
+          <option value="">02</option>
+          <option value="">03</option>
+          <option value="">04</option>
+          <option value="">05</option>
+          <option value="">06</option>
+          <option value="">07</option>
+          <option value="">08</option>
+        </select>
+        <select name="year" id="date">
+          <option value="year">2021</option>
+          <option value="">2000</option>
+          <option value="">2001</option>
+          <option value="">2002</option>
+          <option value="">2003</option>
+          <option value="">2004</option>
+          <option value="">2005</option>
+        </select>
+        <i class="fa-thin fa-calendar-days fa-sm" style="color: #e30202"></i>
+        <select name="hour" id="">
+          <option value="">6</option>
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+          <option value="">4</option>
+          <option value="">5</option>
+          <option value="">7</option>
+          <option value="">8</option>
+        </select>
+        <select name="minutes" id="">
+          <option value="">40</option>
+          <option value="">50</option>
+          <option value="">60</option>
+          <option value="">70</option>
+          <option value="">80</option>
+        </select>
+        <select name="period" id="">
+          <option value="">AM</option>
+          <option value="">PM</option>
+        </select>
+        <br />
+        <br />
+        <br />
+        <label for="comment">Comments</label>
+        <br />
+        <textarea name="" id="" cols="60" rows="10"></textarea>
+      </form>
+    </div>
+  </body>
+</html>

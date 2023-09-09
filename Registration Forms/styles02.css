@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: white;
+}
+label {
+  font-weight: 800;
+  font-weight: bold;
+  /* padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px; */
+}
+#space {
+  box-sizing: border-box;
+}
+.classes-box {
+  display: flex;
+}
+.left-box {
+  flex-basis: 10%;
+}
+.right-box {
+  flex-basis: 60%;
+  padding-left: 10px;
+}
+select #date {
+  width: 40px;
+}
+.heading {
+  border: none;
+  border-bottom: solid 1px rgb(95, 91, 91);
+  padding: 40px 0;
+}
+.heading h3 {
+  font-weight: 500;
+}
